@@ -10,15 +10,16 @@
 	<style type="text/css">
 		body{
 			font-family: 'Rubik Mono One', sans-serif;
-			background-image: url("./bg2.jpg");
-			background-size: 50%
+			background-image: url("./bg4.jpg");
+			background-repeat: no-repeat;
+			background-size: 100%
 
 		}
 		#abtme{
 			color: white;
 		}
 		#gradient{
-			background-color: rgba(0, 0, 0, 0.5);
+			background-color: rgba(29,32,41,0.5);
 			width: 75%;
 		}
 		#logo{
@@ -30,11 +31,13 @@
 			font-family: 'Press Start 2P', cursive;
 			color: white;
 		}
-
+		#backgroundlala{
+			background-color: rgba(215,147,128, 0.9);
+		}
 	</style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-inverse">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="backgroundlala">
   <a class="navbar-brand" href="#">Kaixer</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -76,8 +79,8 @@
     </ul>
   </div>
 </nav>
-<div class="text-center container-fluid" id="gradient">
-<img src="./fixed.png" class= "img-thumbnail rounded-circle bg-light m-4" width="300" height="150">
+<div class="text-center container-fluid rounded" id="gradient">
+<img src="./me1.png" class= "img-thumbnail rounded-circle bg-light m-4" width="300" height="150">
 	<h1 id="abtme" class="pb-5">About me</h1>
 	<div class="container-fluid">
 	<div style="color: white;" class="row">
@@ -90,8 +93,8 @@
 			<p id="pixel">18 years old</p>
 		</div>
 		<div class="col-4">
-			<h3></h3>
-
+			<h3>Location</h3>
+			<p id="pixel">Mendez, Cavite</p>
 		</div>
 	</div>
 	</div>
