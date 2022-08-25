@@ -1,0 +1,29 @@
+body{
+			font-family: 'Rubik Mono One', sans-serif;
+			background-image: url("./bg4.jpg");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100%
+
+
+		}
+		#white{
+			color: white;
+		}
+		#gradient{
+			background-color: rgba(29,32,41,0.7);
+			width: 80%;
+			
+		}
+		#logo{
+			height: 50px;
+			width: 50px;
+
+		}
+		#pixel{
+			font-family: 'Press Start 2P', cursive;
+			color: white;
+		}
+		#backgroundlala{
+			background-color: rgba(215,147,128, 0.9);
+		}

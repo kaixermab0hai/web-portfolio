@@ -2,75 +2,55 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<title>My Portfolio</title>
+	<meta charset="utf-8">
 	<title></title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Mono+One&display=swap" rel="stylesheet">
-	<style type="text/css">
-		body{
-			font-family: 'Rubik Mono One', sans-serif;
-			background-image: url("./bg4.jpg");
-			background-repeat: no-repeat;
-			background-size: 100%
-
-		}
-		#abtme{
-			color: white;
-		}
-		#gradient{
-			background-color: rgba(29,32,41,0.5);
-			width: 75%;
-		}
-		#logo{
-			height: 50px;
-			width: 50px;
-
-		}
-		#pixel{
-			font-family: 'Press Start 2P', cursive;
-			color: white;
-		}
-		#backgroundlala{
-			background-color: rgba(215,147,128, 0.9);
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="backgroundlala">
-  <a class="navbar-brand" href="#">Kaixer</a>
+<nav class="navbar navbar-expand-lg navbar-dark" id="backgroundlala">
+  <a class="navbar-brand" href="#">Kai</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav m-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="Aboutme">About me</a>
       </li>
       <li class="nav-item">
-        <button type="button" class="btn btn-primary bg-transparent border-0" data-toggle="modal" data-target="#exampleModal">Socials</button>
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+          <button type="button" class="btn btn-primary bg-transparent border-0" data-toggle="modal" data-target="#exampleModal">Socials</button>
+<!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <div class="modal-content ">
+    <div class="modal-content">
       <div class="modal-header text-center">
-        <h5 class="modal-title" id="exampleModalLabel">Socials</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Links:</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="container-fluid">
-      <div class="row modal-body p-0 m-0 text-center m-auto p-5">
-      	<div class="col-4" >
-        <a href="https://www.facebook.com/kaixerrr/" style="color: black;"><img src="facebook.svg" id="logo"></a>
-       	</div>
-       	<div class="col-4">        
-        <a href="https://www.instagram.com/kaixerosaurus/" style="color: black;"><img src="./instagram.svg" id="logo"></a>
-        </div>
-        <div class="col-4">
-        <a href="" style="color: black;"><img src="Twitter.svg" id="logo"></a>
-        </div>
-        </div>
+      <div class="container">
+      <div class="row p-5 m-auto">
+      <div class="col-4 align-content-center">
+      <a href="https://www.facebook.com/kaixerrr/"><img src="facebook.svg" id="logo"></a>
+      </div>
+      <div class="col-4">
+      <a href="https://www.instagram.com/kaixerosaurus/"><img src="instagram.svg" id="logo"></a>
+      </div>
+      <div class="col-4">
+      <a href="https://twitter.com/Kalamaixur"><img src="twitter.svg" id="logo"></a>
+      </div>
+
+      </div>
       </div>
 </div>
   </div>
@@ -79,23 +59,31 @@
     </ul>
   </div>
 </nav>
-<div class="text-center container-fluid rounded" id="gradient">
-<img src="./me1.png" class= "img-thumbnail rounded-circle bg-light m-4" width="300" height="150">
-	<h1 id="abtme" class="pb-5">About me</h1>
-	<div class="container-fluid">
-	<div style="color: white;" class="row">
-		<div class="col-4">
-			<h3>Name</h3>
-			<p id="pixel">Edvic Kaixer Gacuma</p>
+<div id="gradient" class="container-fluid" value="Aboutme">
+<div class="row">
+	<div class="text-center p-3 col-12">
+		<img src="./me1.png" class="rounded-circle img-thumbnail" width="300">
+		<h1 id="white" class="pt-3">About me</h1>
+		<div class="container">
+			<div class="row" id="white">
+				<div class="col-4">
+					<h3>Age:</h3>
+					<p id="pixel">18 years old</p>
+				</div>
+				<div class="col-4">
+					<h3>Name:</h3>
+					<p id="pixel">Edvic Kaixer Gacuma</p>
+				</div>
+				<div class="col-4">
+					<h3>Gender:</h3>
+					<p id="pixel">Male</p>
+				</div>
+			</div>
+			
 		</div>
-		<div class="col-4">
-			<h3>Age</h3>
-			<p id="pixel">18 years old</p>
-		</div>
-		<div class="col-4">
-			<h3>Location</h3>
-			<p id="pixel">Mendez, Cavite</p>
-		</div>
+	</div>
+	<div class="col-12 text-center" id="white">
+		<p class="text-justify pl-5 pr-5" id="pixel">I am a student at De La Salle University-Dasmarinas with a course in IT or Information Technology and I'm currently enrolled in the Zuitt Coding Bootcamp. Also I am a part-time video editor</p>	
 	</div>
 	</div>
 </div>
