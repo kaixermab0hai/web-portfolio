@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark" id="backgroundlala">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="backgroundlala">
   <a class="navbar-brand" href="#">Kai</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -21,75 +21,144 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav m-auto">
       <li class="nav-item">
-        <a class="nav-link" href="Aboutme">About me</a>
+        <a class="nav-link" href="#Aboutme">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
+        <a class="nav-link" href="#Myprojects">Projects</a>
       </li>
       <li class="nav-item">
-          <button type="button" class="btn btn-primary bg-transparent border-0" data-toggle="modal" data-target="#exampleModal">Socials</button>
+   
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+<section id="Aboutme">
+<div id="gradient" class="container-fluid d-flex justify-content-around" value="Aboutme">
+<div class="row">
+	<div class="text-center p-3 col-12 pt-5">
+		<img src="./me1.png" class="rounded-circle img-thumbnail img-fluid" width="300">
+		<h1 id="white" class="pt-3">About me</h1>
+		<div class="container">
+			<div class="row pt-5" id="white">
+				<div class="col-md-4 col-sm-12 order-md-1 order-sm-2">
+					<h3>Age:</h3>
+					<p id="pixel">18 years old</p>
+				</div>
+				<div class="col-md-4 col-sm-12 order-md-2 order-sm-1">
+					<h3>Name:</h3>
+					<p id="pixel">Edvic Kaixer Gacuma</p>
+				</div>
+				<div class="col-md-4 col-sm-12 order-md-2 order-sm-3">
+					<h3>Gender:</h3>
+					<p id="pixel">Male</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-12 text-center" id="white">
+		<p class="text-justify pl-5 pr-5 pb-1 m-auto" id="pixel">Hi!, I am a student at De La Salle University-Dasmarinas with a course in IT or Information Technology and I'm currently enrolled in the Zuitt Coding Bootcamp. Also I am a part-time video editor</p>	
+	</div>
+	<div class="ml-auto mr-auto d-flex flex-row">
+	<div class="img-fluid p-3" id="logofont"><a href="https://www.facebook.com/kaixerrr/"><img id="logo" src="./fb.png" ></a></div>
+			<div class="img-fluid p-3" id="logofont"><a href="https://www.instagram.com/kaixerosaurus/"><img id="logo" src="./ig.png"></a></div>
+			<div class="img-fluid p-3 pb-3" id="logofont"><a href="https://twitter.com/Kalamaixur"><img id="logo" src="./twitter.png"></a></div>
+	</div>
+	</div>
+</div>
+</section>
+<section id="Myprojects">
+<div class="container-fluid" width=100 id="pure1">
+	<div class="row text-center">
+		<div class="col-12 pt-5 mt-5 pb-3">
+			<h1 id="white">My Projects</h1>
+		</div>
+		<div class="col-12 m-0 pb-3 img-fluid">
+                            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://place-puppy.com/500x300" class="w-50 rounded img-thumbnail" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                         
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="http://placekitten.com/500/300" class="w-50 img-thumbnail" alt="...">
+                                  
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://placebear.com/500/300" class="w-50 img-thumbnail" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                         
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+	</div>
+	
+</div>
+</section>
+<section>
+	<div class="container-fluid p-1 m-auto" id="containerlogo">
+		<div class="row text-center p-1 m-1 d-flex justify-content-around">
+			
+			<div class="col-12 ml-auto p-1">
+					     <button type="button" class="btn btn-primary bg-primary" data-toggle="modal" data-target="#exampleModal">Contact me</button>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h5 class="modal-title" id="exampleModalLabel">Links:</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="container">
-      <div class="row p-5 m-auto">
-      <div class="col-4 align-content-center">
-      <a href="https://www.facebook.com/kaixerrr/"><img src="facebook.svg" id="logo"></a>
+      <div class="modal-body m-5 p-1">
+        <p>Name: </p>
+        <input class="w-75" type="text" name="name">
+        <p class="pt-3">Email Address: </p>
+        <input class="w-75" type="email" name="emailadd">
+        <p class="pt-3">Contact Number: </p>
+        <input class="w-75" type="number" name="contactnum">
+        <p class="pt-3">Message: </p>
+        <textarea rows="5" cols="25%" style="resize: none;"></textarea>
       </div>
-      <div class="col-4">
-      <a href="https://www.instagram.com/kaixerosaurus/"><img src="instagram.svg" id="logo"></a>
-      </div>
-      <div class="col-4">
-      <a href="https://twitter.com/Kalamaixur"><img src="twitter.svg" id="logo"></a>
-      </div>
-
-      </div>
-      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" dataclose>Close</button>
+        <button type="button" class="btn btn-primary" onclick="message()">Send</button>
+    </div>
 </div>
-  </div>
 </div>
-      </li>
-    </ul>
-  </div>
-</nav>
-<div id="gradient" class="container-fluid" value="Aboutme">
-<div class="row">
-	<div class="text-center p-3 col-12">
-		<img src="./me1.png" class="rounded-circle img-thumbnail" width="300">
-		<h1 id="white" class="pt-3">About me</h1>
-		<div class="container">
-			<div class="row" id="white">
-				<div class="col-4">
-					<h3>Age:</h3>
-					<p id="pixel">18 years old</p>
-				</div>
-				<div class="col-4">
-					<h3>Name:</h3>
-					<p id="pixel">Edvic Kaixer Gacuma</p>
-				</div>
-				<div class="col-4">
-					<h3>Gender:</h3>
-					<p id="pixel">Male</p>
-				</div>
+</div>
 			</div>
-			
 		</div>
 	</div>
-	<div class="col-12 text-center" id="white">
-		<p class="text-justify pl-5 pr-5" id="pixel">I am a student at De La Salle University-Dasmarinas with a course in IT or Information Technology and I'm currently enrolled in the Zuitt Coding Bootcamp. Also I am a part-time video editor</p>	
-	</div>
-	</div>
-</div>
+</section>
 
 
 
+<script>
+function message() {
+  alert("Thank you!");
+
+}
+</script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>

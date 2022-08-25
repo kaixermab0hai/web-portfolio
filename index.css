@@ -1,4 +1,6 @@
-body{
+
+
+		body{
 			font-family: 'Rubik Mono One', sans-serif;
 			background-image: url("./bg4.jpg");
 			background-repeat: no-repeat;
@@ -14,16 +16,34 @@ body{
 			background-color: rgba(29,32,41,0.7);
 			width: 80%;
 			
+
 		}
 		#logo{
-			height: 50px;
-			width: 50px;
+			height: 30px;
+			width: 30px;
 
 		}
 		#pixel{
 			font-family: 'Press Start 2P', cursive;
 			color: white;
+			font-size: 20px;
 		}
 		#backgroundlala{
-			background-color: rgba(215,147,128, 0.9);
+			background-color: rgb(186,92,90);
 		}
+		#pure1{
+			/*background-color: rgba(145,101,91,0.9);*/
+			background-color: rgba(29,32,41,0.7);
+			width: 80%;
+		}
+		#containerlogo{
+			background-color: rgb(186,92,90);
+		}
+		#logofont{
+				font-family: 'Press Start 2P', cursive;
+				font-size: 12px;
+				text-decoration: none;
+				color: white;
+
+		}
+		
